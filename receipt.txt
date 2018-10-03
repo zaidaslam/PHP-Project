@@ -1,0 +1,121 @@
+Receipt
+---------------------
+Details: 
+billy
+vas
+11 manton			  
+bjkabdj
+123465
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+Please Like Me Season2 x 1: $22.50
+
+Costs: 
+Price: 						$39.50
+Delivery Costs: 			$0.00
+Grand Total: 				$39.50
+
+Receipt
+---------------------
+Details: 
+Billy
+Vas
+9 wkejh			  
+a2lsjdf
+2153456
+
+Items: 
+Please Like Me Season1 x 2: $34.00
+Please Like Me Season3 x 1: $26.75
+
+Costs: 
+Price: 						$60.75
+Delivery Costs: 			$7.00
+Grand Total: 				$67.75
+
+Receipt
+---------------------
+Details: 
+Billy
+Vasiliadis
+ldhfgklh			  
+sdlkhjgklsdf
+45645631
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+
+Costs: 
+Price: 						$17.00
+Delivery Costs: 			$7.00
+Grand Total: 				$24.00
+
+Receipt
+---------------------
+Details: 
+Billy
+Vasiliadis
+11 manton street			  
+a@gmail.com
+9292 9292
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+
+Costs: 
+Price: 						$17.00
+Delivery Costs: 			$0.00
+Grand Total: 				$17.00
+
+Receipt
+---------------------
+Details: 
+Billy
+Vasiliadis
+12			  
+hello@gmail.com
+9292 9292
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+
+Costs: 
+Price: 						$17.00
+Delivery Costs: 			$0.00
+Grand Total: 				$17.00
+
+Receipt
+---------------------
+Details: 
+Billy
+Vasiliadis
+12			  
+hello@gmail.com
+9292 9292
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+
+Costs: 
+Price: 						$17.00
+Delivery Costs: 			$0.00
+Grand Total: 				$17.00
+
+Receipt
+---------------------
+Details: 
+Billy
+Vasiliadis
+12			  
+hello@gmail.com
+9292 9292
+
+Items: 
+Please Like Me Season1 x 1: $17.00
+
+Costs: 
+Price: 						$17.00
+Delivery Costs: 			$0.00
+Grand Total: 				$17.00
+

@@ -1,0 +1,660 @@
+        html{
+	background-color:#FF4500;
+	}
+
+        body{
+	margin:auto;
+	width: 80%;
+	min-width:800px;
+	max-width:1600px;
+	background-repeat:no-repeat;
+	}
+
+	/*www.peax-webdesign.com*/
+	@font-face{
+	font-family: pwperspective;
+	src: url("fonts/PWPerspective.ttf");
+	}
+
+	header{
+	border-bottom-width:5px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	background-color: #ADD8E6;
+	overflow:auto;
+	}
+	
+	header img{
+	margin-right:6px;
+	margin-top:3px;
+	width:auto;
+	height:200px;
+	float:right;
+    }
+	
+	header h1{
+	font-family: pwperspective, sans-serif;
+	font-size:2.5em;
+   	text-decoration:underline;
+	text-align:right;
+	position:relative;
+	top:60px;
+	right:16px;
+	}
+	
+	#logo img{
+	float:left;
+	height:130px;
+	width:auto;
+	margin-top:20px;
+	margin-left:80px;
+	}
+
+    	nav{
+	margin-top:100px;
+	margin-left:40px;
+	margin-bottom:5px;
+	}
+	
+	nav a{
+	text-decoration:none;
+	font-family:pwperspective, sans-serif;
+	font-size: 2em;
+	font-weight:bold;
+	}
+	
+	nav a:link,
+	nav a:visited{
+	color:black;
+	}
+
+	nav a:hover,
+	li.active a{
+	color:#FF4500;
+	text-decoration:underline;
+	}
+	
+	ul{
+	margin:0;
+	padding:0;
+	}
+
+	ul li{
+	list-style-type:none;
+	text-align:center;
+	display:inline;
+	}
+
+	li span{
+	font-size: 2em;
+	font-weight: bold;
+        font-family:pwperspective, sans-serif;		
+	}
+	
+	main{
+	margin:0;
+	padding:0;
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-color:white;
+	font-family:"Indie Flower", cursive;
+	overflow:auto;
+	}
+	
+	#description{
+	width:50%;
+	margin-left:50%;
+	font-weight:bold;
+	padding:6px;
+	box-sizing:border-box;
+	text-align:justify;
+	border-left:10px solid transparent;
+    	border-image: url(images/border.png) round;
+	border-image-slice: 30%;
+	border-top:0.00000001px solid;
+	background-color:rgba(100,100,100,0.2);
+	height:573px;
+	}
+	
+	article{
+	background-color: #b19cd9;
+	border-top:1px solid;
+	}
+
+	#review1{
+	text-align:center;
+	font-weight:bold;
+	}
+
+	#review2{
+	text-align:center;
+	margin-top:10px;
+	font-weight:bold;
+	}
+
+	#plm img{
+    	display: block;
+    	margin: auto;
+	}
+	
+	#season4{
+	margin:20px;
+	text-align:center;
+	font-weight:bold;
+	}
+
+	#purchase{
+	text-align:center;
+	margin:0;
+	padding-bottom:10px;
+	}
+	
+	#formdetails{
+	width:42%;
+	margin-left:58%;
+	padding:6px;
+	box-sizing:border-box;
+	border-left:10px solid transparent;
+    border-image: url(images/border.png) round;
+	border-image-slice: 30%;
+	background-color:rgba(100,100,100,0.2);
+	height:573px;
+	}
+	
+	#formdetails h1{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	}
+
+	#formdetails table th{
+	text-align:left;
+	}
+
+	#formdetails input{
+	width:80%;
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+		
+	#myDiv {
+    	border: thick solid blue;
+    	}
+	
+	#formdetails textarea:focus,input:focus,select:focus{
+    	outline: none;
+    	}
+	
+	#formdetails textarea{
+    	border-radius: 5px;
+	border:solid 2px black;
+	width:80%;
+	}
+
+	#formdetails select{
+	border:solid 2px black;
+	width:80%;
+	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#formdetails #submit{
+	text-align:center;
+	}
+	
+	#formdetails #submit  #button:hover,
+	#formdetails #submit  #button:active{
+	color:white;
+	background-color:#FF4500;
+	}
+	
+	#formdetails #submit #button{
+	width:100px;
+	}
+	
+	#formdetails #exMonth{
+	width:55%;
+    border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;	
+	}
+	
+	#formdetails #exYear{
+	width:40%;
+    border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;	
+	}
+
+	.season{
+	margin-left:20%;
+	margin-top:20px;
+	}
+	
+	summary{
+	outline: none;
+	}
+	
+	details div{
+	text-align:justify;
+	width:80%;
+	}
+	
+	#shop{
+	margin:0;
+	padding:0;
+	background-image:none;
+	background-color:white;
+	}
+	
+	#s1{
+	overflow:auto;
+	margin:20px;
+	padding:3px;
+	background-color:yellow;
+	box-shadow: 1px 1px 3px 2px #333;
+	font-weight:bold;
+	}
+
+	#s1 #imgs1{
+	float:left;
+	margin:20px;
+	box-shadow: 1px 1px 3px 2px #333;
+	}
+	
+	#s1 h1{
+	margin:0;
+	}
+	
+	#s1 p{
+	font-size: 20px;
+	}
+	
+	#s1 form{
+	margin:0;
+	}
+	
+	#s1 input{
+	width:40px;
+    	border-radius: 10px;
+    	border:solid 2px black;
+ 	padding:5px;
+	}
+	
+	#s1 label{
+	margin-left:10px;
+	margin-right:8px;
+	}
+	
+	#s1 select{
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#s1 .buy{
+	width:80px;
+	}
+	
+	.buy:hover,
+	.buy:active{
+	color:white;
+	background-color:#FF4500;
+	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px	
+	}
+	
+	#s1 details{
+	margin:0;
+	}
+	
+	a #purchaseGoogleplays1{
+	height:20px;
+	width:auto;
+	border-radius: 15px;
+    	border:solid 2px black;
+	padding:5px;
+	float:right;
+	position:relative;
+	top:10px;
+	right:10px;
+	background-color:white;
+	}
+	
+	a #purchaseituness1{
+	height:34px;
+	width:auto;
+	float:right;
+	position:relative;
+	top:10px;
+	right:30px;
+	}
+	
+	#s2{
+	clear:left;
+	overflow:auto;
+	margin:20px;
+	padding:3px;
+	background-color:yellow;
+	box-shadow: 1px 1px 3px 2px #333;
+	font-weight:bold;
+	}
+
+	#s2 #imgs2{
+	float:left;
+	margin:20px;
+	box-shadow: 1px 1px 3px 2px #333;
+	}
+	
+	#s2 h1{
+	margin:0;
+	}
+	
+	#s2 form{
+	margin:0;
+	}
+	
+	#s2 input{
+	width:40px;
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#s2 label{
+	margin-left:10px;
+	margin-right:8px;
+	}
+	
+	#s2 select{
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#s2 details{
+	margin:0;
+	}
+		
+	#s2 a #purchaseGoogleplays2{
+	height:20px;
+	width:auto;
+	border-radius: 15px;
+    	border:solid 2px black;
+	padding:5px;
+	float:right;
+	position:relative;
+	top:10px;
+	right:10px;
+	background-color:white;
+	}
+	
+	#s2 a #purchaseituness2{
+	height:34px;
+	width:auto;
+	float:right;
+	position:relative;
+	top:10px;
+	right:30px;
+	}
+	
+	#s3{
+	clear:left;
+	overflow:auto;
+	margin:20px;
+	padding:3px;
+	background-color:yellow;
+	box-shadow: 1px 1px 3px 2px #333;
+	font-weight:bold;
+	}
+	
+	#s3 #imgs3{
+	float:left;
+	margin:20px;
+	box-shadow: 1px 1px 3px 2px #333;
+	}
+	
+	#s3 h1{
+	margin:0;
+	}
+	
+	#s3 form{
+	margin:0;
+	}
+	
+	#s3 input{
+	width:40px;
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#s3 label{
+	margin-left:10px;
+	margin-right:8px;
+	}
+	
+	#s3 select{
+    	border-radius: 10px;
+    	border:solid 2px black;
+    	padding:5px;
+	}
+	
+	#s3 details{
+	margin:0;
+	}
+	
+	#s3 a #purchaseGoogleplays3{
+	height:20px;
+	width:auto;
+	border-radius: 15px;
+    	border:solid 2px black;
+	padding:5px;
+	float:right;
+	position:relative;
+	top:10px;
+	right:10px;
+	background-color:white;
+	}
+	
+	#s3 a #purchaseituness3{
+	height:34px;
+	width:auto;
+	float:right;
+	position:relative;
+	top:10px;
+	right:30px;
+	}
+	
+	#buy p{
+	text-align:right;
+	margin:0;
+	margin-right: 20px;
+	margin-bottom:10px;
+	font-weight:bold;
+	}
+	
+	#cart{
+	margin:0;
+	padding:0;
+	background-image:none;
+	background-color:white;
+	}
+
+	#cart h1{
+	padding-left:5%;
+	margin:10px;
+	}
+
+	#cart div{
+	height:450px;
+	}
+
+	#cart table{
+	border:3px solid black;
+	width:90%;
+	margin:auto;
+	background-color:yellow;
+	font-weight:bold;	
+	border-collapse:collapse;
+	}
+
+	#cart th{
+	border:3px solid black;
+	padding:5px;
+	}
+
+	#cart td{
+	border:3px solid black;
+	padding:5px;
+	}
+
+	#cart img{
+	width:15%;
+	height:30%;
+	}
+	#cart p{
+	text-align:right;
+	padding-right:5%;
+	margin:0;
+	margin-bottom:10px;
+	font-weight:bold;
+	}
+	
+	#checkout{
+	width:42%;
+	margin-left:58%;
+	padding:6px;
+	box-sizing:border-box;
+	border-left:10px solid transparent;
+    border-image: url(images/border.png) round;
+	border-image-slice: 30%;
+	background-color:rgba(100,100,100,0.2);
+	height:500px;
+	}
+	
+	#checkouth1{
+	margin:0;
+	margin-top:30px;
+	padding:0;
+	font-size:20px;
+	}
+	#checkout table th{
+	text-align:left;
+	}
+	#checkout input{
+	width:190px;
+    border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;
+	}
+		
+	#checkout textarea:focus,input:focus,select:focus{
+    outline: none;
+    	}
+	
+	#checkout textarea{
+    border-radius: 5px;
+	border:solid 2px black;
+	width:190px;
+	}
+	#checkout select{
+	border:solid 2px black;
+	width:190px;
+	border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;
+	}
+	
+	#checkout #submit{
+	text-align:center;
+	}
+	
+	#checkout #submit  #button:hover,
+	#checkout #submit  #button:active{
+	color:white;
+	background-color:#FF4500;
+	}
+	
+	#checkout #submit #button{
+	width:100px;
+	}
+	
+	
+	#checkout #exMonth{
+	width:56%;
+    border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;	
+	}
+	
+	#checkout #exYear{
+	width:40%;
+    border-radius: 10px;
+    border:solid 2px black;
+    padding:5px;	
+	}
+	
+	#checkout #remember{
+		margin:auto;
+		margin-top:20px;
+		width:10%;
+	}
+	
+	#confirmation{
+	margin:20px;
+	background-color:yellow;
+	font-weight: bold;
+	text-align: center;
+	}
+	
+	#receipt{
+	width:50%;
+	margin:auto;
+	border-left:1px dashed;
+	border-right:1px dashed;
+	}
+	
+	footer{
+	background-color: rgba(0,0,0,1);
+	}
+
+	.container{
+	margin:0;
+	padding:0;
+	font-size:small;
+	text-align:center;		
+	}
+
+	p.contact{
+	display:inline-block;
+	border-right-style:solid;
+	border-right-width:0.2em;
+	border-right-color:white;
+	border-left-style:solid;
+	border-left-width:0.2em;
+	border-left-color:white;
+	color:white;
+	width:30%;
+	}
+	
+	p.social{
+	display:inline-block;
+	border-right-style:solid;
+	border-right-width:0.2em;
+	border-right-color:white;
+	color:white;
+	width:30%;
+	}
+
+	p.copyright{
+	display:inline-block;
+	color:white;
+	width:30%;
+	border-right-style:solid;
+	border-right-width:0.2em;
+	border-right-color:white;
+	}
